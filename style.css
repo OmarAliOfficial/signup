@@ -1,0 +1,42 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+
+    font-family: 'Ysabeau Office', sans-serif;
+}
+
+
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    background: url(https://images.unsplash.com/photo-1551523713-c1473aa01d9f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=930&q=80);
+    background-size: cover;
+
+    position: relative;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    width: 60vw;
+}
+
+.text{
+    position: absolute;
+    top: 95vh;
+}
+
+img{
+    width: 10vh;
+}
+
+.image{
+    position: absolute;
+    top: 5vh;
+}
