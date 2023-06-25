@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="app.js" defer></script>
 </head>
 <body>
     <div class="left">
@@ -17,6 +19,47 @@
         </div>
         <div class="text">Photo by <b>Ali Abdul Rahman</b> on <b>Unsplash</b></div>
     </div>
-    <div class="right">Hi</div>
+    <div class="right">
+        <div class="mainText">
+            This is not a real online service! Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Necessitatibus, commodi! Sign up now to get started.
+            <br></br>
+            You <em>know</em> you want to.
+        </div>
+        <div class="mainForm">
+            <div class="formText">Let's do this!</div>
+            <form action="index.html" method="get">
+                <div class="fieldInput">
+                    <label for="firstName">FIRST NAME</label>
+                    <input type="text" id="firstName">
+                </div>
+                <div class="fieldInput">
+                    <label for="lastName">LAST NAME</label>
+                    <input type="text" id="LastName">
+                </div>
+                <div class="fieldInput">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="fieldInput">
+                    <label for="phone">PHONE</label>
+                    <input type="tel" id="phone">
+                </div>
+                <div class="fieldInput">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" id="password" required>
+                    <div class="pMatch"></div>
+                </div>
+                <div class="fieldInput">
+                    <label for="cPassword">CONFIRM PASSWORD</label>
+                    <input type="password" id="cPassword" required>
+                </div>
+            </form>
+        </div>
+        <div class="bottomButtons">
+            <button type="submit">CREATE ACCOUNT</button>
+            <p class="link">Already a member? <a href="">Log in.</a></p>
+        </div>
+    </div>
 </body>
 </html>

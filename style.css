@@ -23,8 +23,9 @@ body {
 
 .right{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     width: 60vw;
+    background-color: #f5f5f5;
 }
 
 .text{
@@ -39,4 +40,102 @@ img{
 .image{
     position: absolute;
     top: 5vh;
+}
+
+.mainText{
+    height: 15vh;
+    padding-top: 18vh;
+    padding-left: 1.8rem;
+    padding-bottom: 5vh;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.mainForm{
+    height: 36vh;
+    /* background-color: aliceblue; */
+    background-color: white;
+    box-shadow: 0.4rem 0.4rem 1rem lightgray;
+    padding-left: 1.8rem;
+}
+
+.formText{
+    font-size: 1.3rem;
+    font-weight: 800;
+    padding-top: 0.5rem;
+    padding-bottom: 0.8rem;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.fieldInput {
+    display: flex;
+    flex-direction: column;
+    padding-right: 8rem;
+    margin-bottom: 2rem;
+}
+
+label{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+input{
+    width: 12rem;
+    height: 1.2rem;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    height: 24px;
+}
+
+input:focus{
+    border: 1px solid blue;
+    box-shadow: 0.4rem 0.4rem 1rem lightgray;
+}
+
+.bottomButtons{
+    height: 32vh;
+}
+
+.pMatch{
+    color: rgb(176, 0, 0);
+    font-size: 12px;
+    margin-left: 4px;
+}
+
+.create{
+    margin-left: 1.8rem;
+    margin-top: 1.8rem;
+}
+
+button{
+    height: 42px;
+    width: 160px;
+    border: 1px solid lightgray;
+    background-color: rgb(239, 236, 221);
+    border-radius: 8px;
+    font-weight: 300;
+    color: black;
+
+    margin-left: 1.8rem;
+    margin-top: 1.5rem;
+}
+
+button:hover{
+    box-shadow: 0.4rem 0.4rem 1rem lightgray;
+    cursor: pointer;
+}
+
+.link{
+    margin-left: 1.8rem;
+    margin-top: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(217, 202, 126);
 }
