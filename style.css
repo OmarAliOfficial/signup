@@ -70,6 +70,7 @@ form{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    position: relative;
 }
 
 .fieldInput {
@@ -113,6 +114,7 @@ input:focus{
 }
 
 button{
+    position: absolute;
     height: 42px;
     width: 160px;
     border: 1px solid lightgray;
@@ -121,8 +123,7 @@ button{
     font-weight: 300;
     color: black;
 
-    margin-left: 1.8rem;
-    margin-top: 1.5rem;
+    top: 30vh;
 }
 
 button:hover{
@@ -132,10 +133,14 @@ button:hover{
 
 .link{
     margin-left: 1.8rem;
-    margin-top: 1.5rem;
+    margin-top: 5rem;
 }
 
 a{
     text-decoration: none;
     color: rgb(217, 202, 126);
+}
+
+a:hover{
+    font-weight: 600;
 }
